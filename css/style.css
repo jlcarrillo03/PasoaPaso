@@ -4,12 +4,16 @@ background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-
 background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 float:left;
 width:100%;
+padding : 20px 0;
+
+/*For filling entire page with main background without the footer
 height: 100vh;
-padding : 50px 0;
+*/
+
 }
 
 .banner-sec{background:url("")  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
-.container{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1); width: 60%;}
+#main{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1); width: 60%;}
 .carousel-inner{border-radius:0 10px 10px 0;}
 .carousel-caption{text-align:left; left:5%;}
 .login-sec{padding: 50px 30px; position:relative;}
@@ -24,6 +28,12 @@ padding : 50px 0;
 .banner-text h2:after{content:" "; width:100px; height:5px; background:rgb(255, 255, 255); display:block; margin-top:20px; border-radius:3px;}
 .banner-text p{color:rgb(255, 255, 255);}
 
+footer h2{color:rgb(83, 18, 18); font-weight:600;}
+footer p{color:rgb(78, 24, 24); text-align: left;}
+
+
+/* For filling entire page with main background without the footer
 body{
     margin: 0;
 }
+*/
